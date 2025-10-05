@@ -1,0 +1,44 @@
+Experiment: To study the motion of a freely falling body and find acceleration due to gravity
+Objective:
+To verify the equations of motion under gravity and determine the relationship between height, time, and velocity for a freely falling body.
+
+Apparatus / Tools:
+1. Python program (Free Fall Simulation)
+2. Computer with Python and Matplotlib installed
+(In a real lab: metallic ball, electromagnet release, timer, meter scale, sand tray)
+
+Formulae Used
+1. h = 1/2*gt^2  2. v = gt (u is omitted as it is zero)
+where,
+h = height (m),
+g = acceleration due to gravity (9.8 m/s²),
+t = time of fall (s),
+v = final velocity (m/s)
+
+Procedure:
+1. Enter the number of observations in the Python program.
+2. Input different heights of fall (in meters).
+The program calculates time of fall using
+t = sqrt(2h/g)
+It then computes final velocity using v=gt.
+The results are displayed in a table and graphs of Height vs Time and Velocity vs Time are plotted.
+
+Observations
+Obs	Height (m)	 Time (s)	Final Velocity (m/s)
+1	5.00	      1.01	       9.90
+2	5.20	      1.03	       10.10
+3	4.90	      1.00	       9.80
+4	5.10	      1.02	       10.00
+5	5.00	      1.01	       9.90
+
+Average time: 1.01 s
+Average final velocity: 9.94 m/s
+
+Graphical Analysis
+Height vs Time: Parabolic curve — shows h∝t^2
+Velocity vs Time: Straight line — confirms v∝t
+
+Conclusion:
+1. The simulation verifies the laws of motion under uniform acceleration.
+2. Time of fall increases with height, and velocity increases linearly with time.
+3. The average calculated final velocity (≈ 9.94 m/s) closely matches theoretical predictions for free fall under gravity.
